@@ -3,7 +3,7 @@
   "description": "php mongo client for table split",
   "license": "MIT",
   "keywords": ["mongo","table_split"],
-  "version": "0.9",
+  "version": "1.0",
   "authors": [
     {
       "name": "jesusslim",
@@ -12,7 +12,6 @@
   ],
   "require": {
     "php": ">=5.6.0",
-    "psr/log": "~1.0",
     "mongodb/mongodb": "^1.3@dev"
   },
   "autoload": {

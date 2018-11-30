@@ -42,7 +42,7 @@ class MongoAutoTableSplitClient extends MongoClient
      * @param string $table
      * @param array $data
      * @param string|null $split_key_name
-     * @return bool|string
+     * @return bool
      */
     public function insertAuto($table,$data,$split_key_name = null){
         $rule = isset($this->rules[$table]) ? $this->rules[$table] : null;
@@ -57,7 +57,7 @@ class MongoAutoTableSplitClient extends MongoClient
      * @param string $table
      * @param array $datas
      * @param string|null $split_key_name
-     * @return bool|string
+     * @return bool
      */
     public function batchInsertAuto($table,$datas,$split_key_name = null){
         $rule = isset($this->rules[$table]) ? $this->rules[$table] : null;
